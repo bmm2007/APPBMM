@@ -24,7 +24,7 @@
         menu
     </nav>
     <footer>
-        copirygth
+        BMM
     </footer>
 </body>
 </html>
