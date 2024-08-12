@@ -20,5 +20,8 @@
     <section>
         OK
     </section>
+    <nav>
+        menu
+    </nav>
 </body>
 </html>
