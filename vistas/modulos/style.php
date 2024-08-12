@@ -49,4 +49,6 @@ background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%) !import
 opacity: .4;
 border-radius: 8px;
 z-index: -1;
+z-index: -1;
+
 }
