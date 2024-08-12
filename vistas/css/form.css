@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+#formularioRegistro {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.formulario-inscripcion {
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  background: url(../assets/images/banner1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+  padding-bottom: 35px;
+  z-index: 1;
+  margin-bottom: 0 !important;
+}
+.formulario-inscripcion:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%);
+  opacity: 0.5;
+}
+
+#formularioRegistro form {
+  position: relative;
+  width: 680px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.186);
+  padding: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#formularioRegistro form div {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  box-sizing: content-box;
+}
+#formularioRegistro form div input,
+#formularioRegistro form div select {
+  outline: none;
+  border-style: none;
+  border: 1px solid rgb(153, 153, 153);  
+  background-color: white;
+  border-radius: 25px;
+  padding: 13px;
+  font-size: 16px;
+  margin: 5px;
+  color: rgb(71, 71, 71);
+  letter-spacing: 1px;
+  flex: 1;
+  box-sizing: content-box;
+}
+#formularioRegistro form div select {
+  color: rgb(71, 71, 71);
+}
+#formularioRegistro form div button {
+  outline: none;
+  border-style: none;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 18px;
+  margin: 5px;
+  flex: 1 ;
+  background-image: linear-gradient(148.25deg, #80272d 3%, #3d5295 89.85%);
+  /* background-color: #862744; */
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.compartir a,
+.fb-share-button {
+  position: fixed !important;
+  bottom: 140px;
+  right: 5px;
+  text-align: center;
+  z-index: 1;
+}
+
+.btn-wts {
+  position: fixed;
+  bottom: 80px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #3f42a3;
+  background: url(../img/wt.png) no-repeat center !important;
+  background-size: cover !important;
+  border-radius: 50%;
+  z-index: 100;
+  opacity: 1 !important;
+}
+.conte-previsualizar {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.conte-previsualizar img {
+  width: 550px;
+  border: 8px solid #fff;
+}
+#bannerInscripcion {
+  position: relative;
+  height: 250px;
+  top: 0;
+  margin-top: 0 !important;
+  top: -15px !important;
+  display: none !important;
+}
+#bannerInscripcion img {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+@media (max-width: 680px) {
+  #formularioRegistro form {
+    width: 100%;
+  }
+  .conte-previsualizar img {
+    width: 100%;
+  }
+  #bannerInscripcion {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 440px) {
+  #formularioRegistro form div select {
+    width: 300px;
+  }
+}
+.datepicker {
+  padding: 1em !important;
+  border-style: none;
+  font-size: 1.2em !important;
+}
+.icon-arrow-right,
+.icon-arrow-left {
+  font-style: normal !important;
+  font-size: large;
+  cursor: pointer !important;
+}
+.datepicker-years table tbody td,
+.datepicker-months table tbody td,
+.datepicker-decades table tbody td,
+.datepicker-centuries table tbody td {
+  width: 100% !important;
+}
+.datepicker-years table span,
+.datepicker-months table span,
+.datepicker-decades table span,
+.datepicker-centuries table span {
+  margin: 0.1em !important;
+}
+.reload-all {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.401);
+  z-index: 10000;
+}
+.reload-all img {
+  border-radius: 50%;
+}
+
+.error {
+  border: 1px solid #f75f69 !important;
+}
+.success {
+  border: 1px solid #6ee874 !important;
+}
+
+.swal2-modal {
+  width: 500px !important;
+  height: auto !important;
+  font-size: 1em !important;
+  border-radius: 15px !important;
+}
+.title-ins {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  text-shadow: #000000 1px 1px !important;
+  font-family: "Oswald", sans-serif;
+}
+.title-ins-p {
+  color: rgb(255, 255, 255) !important;
+  font-size: 2.5em !important;
+  font-weight: 600 !important;
+  letter-spacing: 3px !important;
+  text-shadow: #000000 1px 1px !important;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px !important;
+}
+.title-ins-p2 {
+  color: inherit !important;
+  font-size: 2.5em !important;
+  font-weight: 600 !important;
+  text-shadow: #b6b6b6 1px 1px !important;
+  font-family: "Nunito", sans-serif !important;
+  letter-spacing: 1px !important;
+}
+.title-ins-p-home {
+  color: rgb(138, 138, 138) !important;
+  font-size: 3em !important;
+  font-weight: 600 !important;
+  letter-spacing: 3px !important;
+  text-shadow: #000000 1px 1px !important;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px !important;
+}
+.error-404 {
+  margin-top: 50px !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.error-404 .breadcrumb {
+  font-size: 2em !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px !important;
+  padding: 15px;
+}
+.login-box-all {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #dcdcdc;
+  background: url(../assets/images/banner1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.login-box-all:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%);
+  opacity: 0.5;
+}
+#form-login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff !important;
+  padding: 20px !important;
+  width: 380px;
+  border-radius: 0px 0px 15px 15px;
+  padding-bottom: 35px !important;
+}
+#form-login div {
+  flex: 1;
+}
+.logo-empresa {
+  width: 380px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px 15px 0px 0px;
+}
+.logo-empresa img {
+  width: 120px;
+}
+.form-group .form-control:focus {
+  outline: none !important;
+  border-style: 0 !important;
+}
+#form-login input {
+  font-size: 1.3em;
+  border-radius: 25px;
+  outline: none !important;
+  border-style: 0 !important;
+  border: 1px solid #ccc !important;
+  /* margin: 5px; */
+  padding-left: 15px;
+  height: 40px !important;
+  box-shadow: none !important;
+  border-top: 0px !important;
+}
+#form-login .glyphicon {
+  font-size: 1.2em;
+  top: 3px;
+  color: rgba(182, 55, 55, 0.682) !important;
+}
+#form-login button {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 1em;
+  outline: 0 !important;
+  border-style: none !important;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(175, 74, 74);
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#resultLogin {
+  text-align: center;
+  font-size: 1.6em;
+}
+.modal-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-contenedor,
+.img-contenedor-logo {
+  position: relative !important;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center !important;
+  align-items: center;
+}
+.img-contenedor label {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  /* border: 1px solid rgb(235, 235, 235); */
+  /* background-color: rgb(44, 113, 216); */
+  background-image: url(../img/svg/camara.svg);
+  background-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.fullscreen-modal form input,
+.fullscreen-modal form select {
+  outline: none;
+  border-style: 0 !important;
+  box-shadow: none !important;
+  font-size: 1.3em !important;
+  height: 45px !important;
+}
+.fullscreen-modal input[type="file"] {
+  display: none;
+}
+#cke_46 {
+  display: none;
+}
+.content-foto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-foto input[type="file"] {
+  display: none;
+}
+.content-foto .foto-logo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-top: 5px;
+  color: #fff;
+}
+.content-foto .foto-logo i {
+  font-size: 4.2em;
+}
+.forms-all input {
+  outline: 0;
+  border-style: none;
+  box-shadow: none !important;
+  border: 1px solid rgb(197, 197, 197);
+  font-size: 1.2em;
+  height: 45px;
+}
+.forms-all button {
+  outline: 0;
+  border-style: none;
+  width: 200px;
+  font-size: 1.5em;
+  padding: 10px;
+  float: right;
+  font-family: "Oswald", sans-serif !important;
+  left: 22px !important;
+  background-color: #a4323a;
+}
+.forms-all .toggle-group label {
+  font-size: 1.4em !important;
+}
+.img-ne img {
+  border: 4px solid #fff;
+  border-radius: 0 !important;
+}
+@media (min-width: 768px) {
+  .fullscreen-modal .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .fullscreen-modal .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .fullscreen-modal .modal-dialog {
+    width: 1170px;
+  }
+}
+@media (max-width: 768px) {
+  .modal {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .fullscreen-modal .modal-dialog,
+  .fullscreen-modal .modal-content {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+.banner-compu{
+  display: none;
+}
