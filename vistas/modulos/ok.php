@@ -24,7 +24,7 @@
         menu
     </nav>
     <footer>
-        BMM todos
+        BMM todos los derechos reservados 
     </footer>
 </body>
 </html>
