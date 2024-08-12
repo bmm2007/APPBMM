@@ -23,5 +23,8 @@
     <nav>
         menu
     </nav>
+    <footer>
+        copirygth
+    </footer>
 </body>
 </html>
