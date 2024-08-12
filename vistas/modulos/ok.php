@@ -24,7 +24,7 @@
         menu
     </nav>
     <footer>
-        BMM
+        BMM todos
     </footer>
 </body>
 </html>
