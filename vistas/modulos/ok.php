@@ -12,8 +12,12 @@
         <i></i><i></i><i></i><i></i>
     </li>
    </nav>
-   <footer>
-    
+   <footer>   
+    git config --global user.name bmm2007
+
+   git config --global user.email drivebmm@gmail.com
+
+
    </footer>
 </body>
 </html>
