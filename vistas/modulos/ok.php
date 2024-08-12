@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-   hi B
+    
+   <nav></nav>
+   <footer>
+    
+   </footer>
 </body>
 </html>
