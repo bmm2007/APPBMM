@@ -28,7 +28,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
                                 <div class="banner-info-bg">
                                     <h5>Administración Bancaria</h5>
                                     <p class="mt-4 pr-lg-4">Da el primer paso hacia el éxito con nosotros. </p>
-                                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2 btn-banner" href="about.html"> Más información</a>
+                                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2 btn-banner" href="bancaria"> Más información</a>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
                                 <div class="banner-info-bg">
                                     <h5>Administración de Empresas</h5>
                                     <p class="mt-4 pr-lg-4">Da el primer paso hacia el éxito con nosotros. </p>
-                                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2 btn-banner" href="about.html"> Más información</a>
+                                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2 btn-banner" href="empresas"> Más información</a>
                                 </div>
                             </div>
                         </div>
