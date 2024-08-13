@@ -1,6 +1,7 @@
 <?php
 $time = time();
 ?>
+<div class="contenedor-principal">
 <div class="banner-compu" id="bannerInscripcion"><img src="vistas/img/computacioneinfo.jpg?q=<?php echo $time; ?>" alt=""></div>
 <!-- about breadcrumb -->
 <section class="w3l-breadcrumb">
@@ -117,3 +118,4 @@ $time = time();
         </div>
     </div>
 </section>
+</div>
