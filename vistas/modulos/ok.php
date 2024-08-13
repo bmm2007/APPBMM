@@ -17,10 +17,9 @@
 
    git config --global user.email drivebmm@gmail.com 
 
-   ok
-   ok1
-
-   ojjjjjjjjjjjjjjjjj
+  
+   Comandos de git.
+   https://github.com/elliotgaramendi/learning-git
    </footer>
 </body>
 </html>
