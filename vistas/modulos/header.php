@@ -11,8 +11,8 @@
     <li class="submenu"><a href="#"><i class="fas fa-user-graduate"></i> Carreras <span><i class="fas fa-caret-down"></i></span></a>
     <div>
       <ul>
-        <li><a href="#"><i class="fas fa-graduation-cap"></i> Administración de Empresas</a></li>
-        <li><a href="#"><i class="fas fa-graduation-cap"></i> Administración Bancaria</a></li>
+        <li><a href="empresas"><i class="fas fa-graduation-cap"></i> Administración de Empresas</a></li>
+        <li><a href="bancaria"><i class="fas fa-graduation-cap"></i> Administración Bancaria</a></li>
         <li><a href="#"><i class="fas fa-graduation-cap"></i> Administración de Negocios Internacionales</a></li>
         <li><a href="#"><i class="fas fa-graduation-cap"></i> Contabilidad</a></li>
         <li><a href="computacion"><i class="fas fa-graduation-cap"></i> Computación e Informática</a></li>
