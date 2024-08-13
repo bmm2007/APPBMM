@@ -59,7 +59,7 @@ $('.contacto').on('click', function(e){
 
                                 scrollTop: 0
                                 // scrollTop: $("#formularioRegistro").offset().top
-                            }, 2000)
+                            }, 1000)
                 }
         })
 })
