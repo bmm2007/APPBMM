@@ -25,10 +25,10 @@ session_start();
     $rutasall = 'ISTBM | Computación e Informática';
   }
   if (isset($_GET['ruta']) && $_GET['ruta'] == 'empresas') {
-    $rutasall = 'ISTBM | Administracion de Empresas';
+    $rutasall = 'ISTBM | Administración de Empresas';
   }
   if (isset($_GET['ruta']) && $_GET['ruta'] == 'bancaria') {
-    $rutasall = 'ISTBM | Administracion Bancaria';
+    $rutasall = 'ISTBM | Administración Bancaria';
   }
   if (isset($_GET['ruta']) && $_GET['ruta'] == 'inscripcion') {
     $rutasall = 'ISTBM | Inscripciones';

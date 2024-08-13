@@ -49,6 +49,7 @@ $('.contacto').on('click', function(e){
                 },
                 success: function(data){
                      $('#contenedorTotal').hide();
+                     $('.contenedor-principal').hide();
                         $('title').html('ISTBM | Contáctenos');
                         $('#contenedorTotal').html(data).fadeIn(1000);
                         $('.reload-all').hide();
