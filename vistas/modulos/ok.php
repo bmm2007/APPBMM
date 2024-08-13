@@ -9,7 +9,7 @@
     
    <nav>
     <li>
-        <i></i><i></i><i></i><i></i>
+        <i></i>
     </li>
    </nav>
    <footer>   
