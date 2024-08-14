@@ -63,6 +63,16 @@ $('.contacto').on('click', function(e){
                 }
         })
 })
+
+$('.nosotros').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+
+                // scrollTop: 10
+                scrollTop: $("#quienes-somos").offset().top
+                
+            }, 500)
+})
 $('.todosC').on('click', function(e){
         e.preventDefault();
         $('.reload-all').hide();

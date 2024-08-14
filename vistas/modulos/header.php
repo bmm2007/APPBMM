@@ -7,7 +7,7 @@
 
   <ul>
     <li class="inicio"><a href="inicio"><ion-icon name="home-outline"></ion-icon> Inicio</a></li>
-    <li><a href="#"><i class="fas fa-university"></i> Nosotros</a></li>
+    <li><a href="#" class="nosotros"><i class="fas fa-university"></i> Nosotros</a></li>
     <li class="submenu"><a href="#"><i class="fas fa-user-graduate"></i> Carreras <span><i class="fas fa-caret-down"></i></span></a>
     <div>
       <ul>

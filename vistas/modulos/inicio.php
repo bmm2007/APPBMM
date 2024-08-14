@@ -121,7 +121,8 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
         </svg>
     </div>
 </section>
-<section class="quienes-somos">
+
+<section id="quienes-somos"  class="quienes-somos">
     <div></div>
     <div></div>
     <div></div>
