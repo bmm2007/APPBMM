@@ -341,7 +341,7 @@ margin-right: 0;
   /* background-color: #1256a9; */
   justify-content: center;
   top: -80px;
-  z-index: 9999;
+  z-index: 1;
 
 }.quienes-somos div{
  width: 200px;

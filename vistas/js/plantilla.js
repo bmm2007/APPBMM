@@ -69,7 +69,7 @@ $('.nosotros').on('click', function(e){
         $('html, body').animate({
 
                 // scrollTop: 10
-                scrollTop: $("#quienes-somos").offset().top
+                scrollTop: $(".waveAnimation").offset().top
                 
             }, 500)
 })
