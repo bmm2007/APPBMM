@@ -10,7 +10,7 @@ $time = time();
             <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Administración de Empresas</h2>
             <ul class="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
                 <li><a href="./">Inicio</a></li>
-                <li class="active"> / empresas </li>
+                <li class="active"> / Empresas </li>
             </ul>
         </div>
     </div>

@@ -7,10 +7,10 @@ $time = time();
 
     <div class="breadcrumb-bg breadcrumb-bg-computacion py-8">
         <div class="container pt-lg-5 pt-3 p-lg-4 pb-3">
-            <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Administración Bancaria </h2>
+            <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Administración de Negocios Internacionales</h2>
             <ul class="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
                 <li><a href="./">Inicio</a></li>
-                <li class="active"> / Bancaria </li>
+                <li class="active"> / Negocios </li>
             </ul>
         </div>
     </div>
@@ -32,24 +32,22 @@ $time = time();
                 <!-- COMPUTACIÓN E INFORMÁTICA -->
 
                 <p class="text-para first-letra">
-                    La carrera de Administración Bancaria se centra en la formación de expertos
-                    en la gestión y operación de instituciones financieras. Los estudiantes 
-                    aprenden sobre el funcionamiento del sistema bancario, gestión de riesgos, 
-                    análisis de inversiones, préstamos, y normativas regulatorias. La carrera 
-                    ofrece una comprensión profunda de la contabilidad bancaria, la economía 
-                    financiera y el servicio al cliente en el sector bancario. Los profesionales 
-                    en este campo están capacitados para optimizar la eficiencia de las 
-                    operaciones bancarias, desarrollar estrategias financieras y asegurar el 
-                    cumplimiento de las regulaciones, contribuyendo al crecimiento y estabilidad 
-                    de las instituciones financieras.
-                <p class="text-para">Estudia con los mejores profesores en uno de los principales 
-                    institutos de la Región San Martín. La Administración Bancaria te proporciona
-                    una comprensión integral del funcionamiento de las instituciones financieras, 
-                    desde la gestión de riesgos hasta el análisis de inversiones y el cumplimiento
-                    normativo. Esta carrera te capacita para optimizar operaciones bancarias, 
-                    liderar equipos y tomar decisiones estratégicas en el sector financiero. 
-                    Prepárate para enfrentar los desafíos del entorno bancario con habilidades 
-                    prácticas y teóricas, contribuyendo al éxito y estabilidad de las instituciones financieras.
+                    La carrera de Administración de Negocios Internacionales prepara 
+                    a los estudiantes para gestionar y liderar operaciones en un entorno 
+                    globalizado. A lo largo de la formación, se adquieren habilidades 
+                    en áreas clave como comercio internacional, finanzas, marketing 
+                    global, logística y estrategias de negocio en mercados internacionales. 
+                    Los egresados están capacitados para enfrentar desafíos multiculturales,
+                    negociar acuerdos transnacionales y desarrollar estrategias efectivas 
+                    para expandir negocios en diversos contextos globales. 
+                    Ideal para quienes desean desempeñarse en un entorno empresarial dinámico y multicultural.
+                <p class="text-para">Estudiar Administración de Negocios Internacionales 
+                    te capacita para gestionar y liderar operaciones en un entorno global. 
+                    Desarrollarás habilidades en comercio internacional, finanzas, 
+                    marketing y logística, preparándote para enfrentar desafíos 
+                    multiculturales y negociar acuerdos globales. Esta carrera te ofrece 
+                    una perspectiva global y oportunidades en diversas industrias, ideal 
+                    para quienes buscan impactar en el mundo empresarial a nivel internacional.
                 </p>
 
 
@@ -57,15 +55,13 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-graduation-cap"></i> LO MÁS DESTACADO DE LA CARRERA</h3>
 
                 <p class="text-para">
-                La carrera de Administración Bancaria te proporciona una formación exhaustiva en la gestión de instituciones financieras.
-                <p class="text-para"> Desarrollarás habilidades clave en análisis financiero, gestión de riesgos 
-                    y cumplimiento normativo, preparándote para optimizar las operaciones bancarias y liderar 
-                    equipos en el sector financiero. A través de módulos interactivos y estudios de caso, aprenderás 
-                    las mejores prácticas en administración de inversiones, préstamos y servicios bancarios. 
-                    Esta carrera te capacita para enfrentar los desafíos del entorno financiero, aplicar conceptos 
-                    avanzados en gestión del rendimiento y contribuir a la estabilidad y éxito de las instituciones 
-                    bancarias. Con una sólida base teórica y práctica, estarás listo para obtener una ventaja 
-                    competitiva en el sector y impulsar el crecimiento de las organizaciones financieras.
+                Lo más destacado de la carrera de Administración de Negocios Internacionales es su preparación 
+                integral para gestionar operaciones en un entorno global. Los estudiantes adquieren 
+                habilidades en comercio internacional, finanzas, marketing y logística, así como en 
+                la negociación de acuerdos transnacionales. 
+                <p class="text-para">La carrera ofrece una perspectiva global 
+                y formación en estrategias para enfrentar desafíos multiculturales, preparando a los 
+                egresados para impulsar el crecimiento y la competitividad de las empresas en el mercado internacional.
                 </p>
 
 

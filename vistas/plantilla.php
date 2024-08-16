@@ -30,6 +30,15 @@ session_start();
   if (isset($_GET['ruta']) && $_GET['ruta'] == 'bancaria') {
     $rutasall = 'ISTBM | Administracion Bancaria';
   }
+  if (isset($_GET['ruta']) && $_GET['ruta'] == 'contabilidad') {
+    $rutasall = 'ISTBM | Contabilidad';
+  }
+  if (isset($_GET['ruta']) && $_GET['ruta'] == 'negocios') {
+    $rutasall = 'ISTBM | Administracion de Negocios Internacionales';
+  }
+  if (isset($_GET['ruta']) && $_GET['ruta'] == 'secretariado') {
+    $rutasall = 'ISTBM | Secretariado Ejecutivo';
+  }
   if (isset($_GET['ruta']) && $_GET['ruta'] == 'inscripcion') {
     $rutasall = 'ISTBM | Inscripciones';
   } 
@@ -173,6 +182,9 @@ session_start();
           $_GET["ruta"] == "computacion" ||
           $_GET["ruta"] == "empresas" ||
           $_GET["ruta"] == "bancaria" ||
+          $_GET["ruta"] == "contabilidad" ||
+          $_GET["ruta"] == "secretariado" ||
+          $_GET["ruta"] == "negocios" ||
           $_GET["ruta"] == "contacto"
         ) {
 

@@ -1,16 +1,17 @@
+
 <?php
 $time = time();
 ?>
 <div class="banner-compu" id="bannerInscripcion"><img src="vistas/img/computacioneinfo.jpg?q=<?php echo $time; ?>" alt=""></div>
 <!-- about breadcrumb -->
 <section class="w3l-breadcrumb">
-
+    
     <div class="breadcrumb-bg breadcrumb-bg-computacion py-8">
         <div class="container pt-lg-5 pt-3 p-lg-4 pb-3">
-            <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Administración Bancaria </h2>
+            <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Secretariado Ejecutivo</h2>
             <ul class="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
                 <li><a href="./">Inicio</a></li>
-                <li class="active"> / Bancaria </li>
+                <li class="active"> / Secretariado</li>
             </ul>
         </div>
     </div>
@@ -32,24 +33,22 @@ $time = time();
                 <!-- COMPUTACIÓN E INFORMÁTICA -->
 
                 <p class="text-para first-letra">
-                    La carrera de Administración Bancaria se centra en la formación de expertos
-                    en la gestión y operación de instituciones financieras. Los estudiantes 
-                    aprenden sobre el funcionamiento del sistema bancario, gestión de riesgos, 
-                    análisis de inversiones, préstamos, y normativas regulatorias. La carrera 
-                    ofrece una comprensión profunda de la contabilidad bancaria, la economía 
-                    financiera y el servicio al cliente en el sector bancario. Los profesionales 
-                    en este campo están capacitados para optimizar la eficiencia de las 
-                    operaciones bancarias, desarrollar estrategias financieras y asegurar el 
-                    cumplimiento de las regulaciones, contribuyendo al crecimiento y estabilidad 
-                    de las instituciones financieras.
-                <p class="text-para">Estudia con los mejores profesores en uno de los principales 
-                    institutos de la Región San Martín. La Administración Bancaria te proporciona
-                    una comprensión integral del funcionamiento de las instituciones financieras, 
-                    desde la gestión de riesgos hasta el análisis de inversiones y el cumplimiento
-                    normativo. Esta carrera te capacita para optimizar operaciones bancarias, 
-                    liderar equipos y tomar decisiones estratégicas en el sector financiero. 
-                    Prepárate para enfrentar los desafíos del entorno bancario con habilidades 
-                    prácticas y teóricas, contribuyendo al éxito y estabilidad de las instituciones financieras.
+                La carrera de Secretariado Ejecutivo capacita a los estudiantes para 
+                desempeñarse con eficacia en el ámbito administrativo y ejecutivo de 
+                una organización. Los participantes aprenden a gestionar agendas, 
+                coordinar reuniones, manejar comunicación empresarial, y realizar 
+                tareas de apoyo ejecutivo, incluyendo la elaboración de documentos 
+                y la organización de eventos. La formación también incluye habilidades 
+                en gestión de proyectos, atención al cliente y tecnología administrativa. 
+                Los egresados están preparados para facilitar el funcionamiento eficiente 
+                de oficinas y apoyar a altos ejecutivos en la toma de decisiones estratégicas. 
+                Ideal para quienes desean una carrera dinámica en el ámbito administrativo con un enfoque en la eficiencia y la organización.
+                <p class="text-para">Estudiar Secretariado Ejecutivo te prepara para ser 
+                    el pilar organizativo de cualquier empresa. Aprenderás a manejar 
+                    agendas, coordinar eventos y realizar tareas administrativas 
+                    esenciales, desarrollando habilidades en comunicación y tecnología. 
+                    Esta carrera te ofrece una base sólida para un rol clave en el 
+                    funcionamiento eficiente de las organizaciones y una puerta abierta a diversas oportunidades profesionales.
                 </p>
 
 
@@ -57,15 +56,13 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-graduation-cap"></i> LO MÁS DESTACADO DE LA CARRERA</h3>
 
                 <p class="text-para">
-                La carrera de Administración Bancaria te proporciona una formación exhaustiva en la gestión de instituciones financieras.
-                <p class="text-para"> Desarrollarás habilidades clave en análisis financiero, gestión de riesgos 
-                    y cumplimiento normativo, preparándote para optimizar las operaciones bancarias y liderar 
-                    equipos en el sector financiero. A través de módulos interactivos y estudios de caso, aprenderás 
-                    las mejores prácticas en administración de inversiones, préstamos y servicios bancarios. 
-                    Esta carrera te capacita para enfrentar los desafíos del entorno financiero, aplicar conceptos 
-                    avanzados en gestión del rendimiento y contribuir a la estabilidad y éxito de las instituciones 
-                    bancarias. Con una sólida base teórica y práctica, estarás listo para obtener una ventaja 
-                    competitiva en el sector y impulsar el crecimiento de las organizaciones financieras.
+                La carrera de Secretariado Ejecutivo es su enfoque en el soporte administrativo integral. 
+                Los estudiantes desarrollan habilidades avanzadas en la gestión de agendas, coordinación 
+                de eventos y comunicación efectiva. Aprenderán a utilizar herramientas tecnológicas para 
+                optimizar la eficiencia operativa y brindar un apoyo crucial a la alta dirección. 
+                
+                <p class="text-para">Esta carrera ofrece una formación completa para ser el pilar organizativo de cualquier 
+                empresa, preparándote para manejar tareas clave y contribuir significativamente al éxito de la organización.
                 </p>
 
 
