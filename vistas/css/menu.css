@@ -11,6 +11,7 @@ header{
     left: 0;
     border-style: none;
     
+    
 }
 #btn-menu{
     display: none !important;
@@ -54,11 +55,13 @@ header label{
 }
 .menu a{
     display: block;
-    font-size: 19px;
+    font-size: 15px;
     padding: 15px 20px;
     color: #fff;
     text-decoration: none;
     padding: 30px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     
 }
 .submenu ul a, .submenu2 ul a{

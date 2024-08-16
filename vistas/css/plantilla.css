@@ -285,6 +285,54 @@ margin-right: 0;
   background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%);
   opacity: 0.5;
 }
+.breadcrumb-bg-empresas {
+  background: url(../assets/images/banner2.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.breadcrumb-bg-empresas:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%);
+  opacity: 0.5;
+}
+.breadcrumb-bg-adminbancaria {
+  background: url(../assets/images/banner1.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+.breadcrumb-bg-adminbancaria:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(148.25deg, #12156a 3%, #a4323a 89.85%);
+  opacity: 0.5;
+}
 
 .quienes-somos{
   position: relative;
@@ -293,7 +341,7 @@ margin-right: 0;
   /* background-color: #1256a9; */
   justify-content: center;
   top: -80px;
-  z-index: 9999;
+  z-index: 1;
 
 }.quienes-somos div{
  width: 200px;
@@ -302,3 +350,4 @@ margin-right: 0;
   margin: 10px;
   border-radius: 10px;
 }
+

@@ -49,6 +49,7 @@ $('.contacto').on('click', function(e){
                 },
                 success: function(data){
                      $('#contenedorTotal').hide();
+                     $('.contenedor-principal').hide();
                         $('title').html('ISTBM | Contáctenos');
                         $('#contenedorTotal').html(data).fadeIn(1000);
                         $('.reload-all').hide();
@@ -58,9 +59,19 @@ $('.contacto').on('click', function(e){
 
                                 scrollTop: 0
                                 // scrollTop: $("#formularioRegistro").offset().top
-                            }, 2000)
+                            }, 1000)
                 }
         })
+})
+
+$('.nosotros').on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+
+                // scrollTop: 10
+                scrollTop: $(".waveAnimation").offset().top
+                
+            }, 500)
 })
 $('.todosC').on('click', function(e){
         e.preventDefault();
