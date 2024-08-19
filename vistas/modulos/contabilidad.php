@@ -2,12 +2,12 @@
 <?php
 $time = time();
 ?>
-<div class="banner-compu" id="bannerInscripcion"><img src="vistas/img/computacioneinfo.jpg?q=<?php echo $time; ?>" alt=""></div>
+<div class="banner-compu" id="bannerInscripcion"><img src="vistas/img/contabilidad.jpg?q=<?php echo $time; ?>" alt=""></div>
 <!-- about breadcrumb -->
 <section class="w3l-breadcrumb">
     
     <div class="breadcrumb-bg breadcrumb-bg-computacion py-8">
-        <div class="container pt-lg-5 pt-3 p-lg-4 pb-3">
+        <div class="container pt-lg-5 pt-3 p-lg-4 pb-3">        
             <h2 class="title mt-8 pt-lg-5 pt-sm-3"><i class="fas fa-graduation-cap"></i> Contabilidad</h2>
             <ul class="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
                 <li><a href="./">Inicio</a></li>

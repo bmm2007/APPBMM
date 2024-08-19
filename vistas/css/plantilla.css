@@ -343,7 +343,7 @@ margin-right: 0;
   top: -80px;
   z-index: 1;
 
-}.quienes-somos div{
+}.quienes-somos .mision{
  width: 400px;
  height: 400px;
  padding: 10px;
@@ -351,4 +351,12 @@ margin-right: 0;
   margin: 10px;
   border-radius: 10px;
 }
+.quienes-somos .vision{
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+   background-color: #b2b2b2;
+   margin: 10px;
+   border-radius: 10px;
+ }
 
