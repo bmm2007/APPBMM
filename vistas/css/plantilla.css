@@ -342,6 +342,8 @@ margin-right: 0;
   justify-content: center;
   top: -80px;
   z-index: 1;
+  width: 90%;
+  margin: 0 auto;
 
 }
 .quienes-somos div{
