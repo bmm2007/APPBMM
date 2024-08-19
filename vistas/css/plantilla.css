@@ -358,6 +358,7 @@ width:  400px;
   text-justify: inter-word;
   border: 1px solid rgb(232, 232, 232);
   padding-top: 0;
+  border-top: 0;
 }
 
 .quienes-somos .m-v-h{
@@ -379,6 +380,9 @@ width:  400px;
   letter-spacing: 1px !important;
   margin-left: 0;
   margin-bottom: 30px !important;
+  border-left: 1px solid rgb(232, 232, 232);
+  border-right: 1px solid rgb(232, 232, 232);
+  text-shadow: 1px 1px black;
 }
 
 .inverted-border-radius::before {
