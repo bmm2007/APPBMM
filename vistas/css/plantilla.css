@@ -369,7 +369,7 @@ width:  400px;
   position: relative;
   height: 70px;
   width: 100%;
-  background-color: #1256a9;
+  background-color: #939393;
   border-radius: 0px 10px 0px 10px;
   padding-top: 10px;
   color: #ffffff;
@@ -390,5 +390,5 @@ width:  400px;
   height: 50px;
   width: 25px;
   border-top-left-radius: 25px;
-  box-shadow: 0 -25px 0 0 #1256a9;
+  box-shadow: 0 -25px 0 0 #939393;
 }
