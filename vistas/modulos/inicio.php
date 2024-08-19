@@ -122,9 +122,15 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
     </div>
 </section>
 
-<section id="quienes-somos"  class="quienes-somos">
-    <div></div>
-    <div></div>
+<section id="quienes-somos" class="quienes-somos">
+    <div id="MISION" class="Mision">
+        <h3 class="title-big mb-4">MISION</h3>
+            <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
+            en las Carreras Profesionales de Computación E Informática, Administración 
+            Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
+            Administración de Negocios Internacionales; capaces de competir en el mercado 
+            laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
+    </div>
     <div></div>
 </section>
 <!-- /main-slider -->
