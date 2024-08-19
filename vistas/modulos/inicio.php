@@ -124,6 +124,14 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
 
 <section id="quienes-somos" class="quienes-somos">
     <div id="MISION" class="Mision">
+        <h3 class="title-big mb-4">HISTORIA</h3>
+            <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
+            en las Carreras Profesionales de Computación e Informática, Administración 
+            Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
+            Administración de Negocios Internacionales; capaces de competir en el mercado 
+            laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
+    </div>
+       <div id="MISION" class="Mision">
         <h3 class="title-big mb-4">MISIÓN</h3>
             <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
             en las Carreras Profesionales de Computación e Informática, Administración 
@@ -131,9 +139,9 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
             Administración de Negocios Internacionales; capaces de competir en el mercado 
             laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
     </div>
-    <div id="vision" class="vision" style="width: 400px; height:400px; padding:10px;">
+    <div id="vision" class="vision">
         <h3 class="title-big mb-4">VISIÓN</h3>
-        <p>Ser un Instituto de Educación Superior Tecnológico líder en Formación Técnica,
+        <p class="text-para">Ser un Instituto de Educación Superior Tecnológico líder en Formación Técnica,
              utilizando los saberes del mundo globalizado para formar profesionales de 
              calidad, con mentalidad empresarial, científica y practica; capaces de 
              integrarse al mercado laboral con eficiencia y capacidad profesional en 

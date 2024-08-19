@@ -345,8 +345,7 @@ margin-right: 0;
 
 }
 .quienes-somos div{
- width: 400px;
- height: auto;
+flex: 400px;
  padding: 10px;
   background-color: #f7f7f7;
   margin: 10px;
