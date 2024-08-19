@@ -125,6 +125,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
 <section id="quienes-somos" class="quienes-somos">
     <div id="MISION" class="Mision">
         <h3 class="title-big mb-4">HISTORIA</h3>
+        
             <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
             en las Carreras Profesionales de Computación e Informática, Administración 
             Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
