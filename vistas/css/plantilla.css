@@ -355,7 +355,8 @@ width:  400px;
   box-shadow: 1px 1px 3px 1px rgba(205, 205, 205, 0.75);
   padding-left: 25px;
   padding-right: 25px;
-  text-align: left !important;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .quienes-somos h3{
   text-align: center;
