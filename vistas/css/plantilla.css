@@ -346,29 +346,32 @@ margin-right: 0;
   margin: 0 auto;
 
 }
-.quienes-somos div{
+.quienes-somos .content-d{
 width:  400px;
   background-color: #fdfdfd;
   margin: 10px;
-  border-radius: 10px 20px 10px 10px;
+  border-radius: 40px 40px 10px 10px;
   padding-bottom: 10px;
   text-align: justify;
   text-justify: inter-word;
   border: 1px solid rgb(217, 217, 217);
-  border-top: 0;
+  box-shadow: 0px 0px 15px 0px rgba(214,214,214,1);
 }
 
 .quienes-somos .m-v-h{
+  position: relative;
   padding-left: 25px;
   padding-right: 25px;
+  padding-top: 30px;
+  border-bottom: 30px;
 }
 
 .inverted-border-radius {
   position: relative;
-  height: 60px;
+  height: 70px;
   width: 100%;
-  background-color: #939393;
-  border-radius: 0px 20px 0px 20px;
+  background-color: #1256a9;
+  border-radius:  40px 5px 0px 0px;
   padding-top: 7px;
   color: #ffffff;
   margin-top: 0;
@@ -376,11 +379,13 @@ width:  400px;
   text-align: center;
   letter-spacing: 1px !important;
   margin-left: 0;
-  margin-bottom: 30px !important;
-  border-left: 1px solid rgb(232, 232, 232);
-  border-right: 1px solid rgb(232, 232, 232);
+  /* margin-bottom: 30px !important; */
+  border: 2px solid #1256a9;
   text-shadow: 1px 1px black;
+ 
 }
+
+
 
 .inverted-border-radius::before {
   content: "";
@@ -391,5 +396,49 @@ width:  400px;
   height: 50px;
   width: 25px;
   border-top-left-radius: 25px;
-  box-shadow: 0 -25px 0 0 #939393;
+  box-shadow: 0 -25px 0 0 #1256a9;
+}
+
+.quienes-somos .img-mision{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(../img/mision.png);
+  background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 40px;
+    border: 0;
+}
+.quienes-somos .img-vision{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #fdfdfd;
+  
+  border-radius: 50%;
+  background-image: url(../img/vision.png);
+  background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 40px;
+    border: 0;
+    margin: 0 auto;
+}
+.quienes-somos .img-historia{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(../img/historia.png);
+  background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 40px;
+    border: 0;
 }
