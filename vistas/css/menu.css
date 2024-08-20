@@ -57,11 +57,12 @@ header label{
     display: block;
     font-size: 15px;
     padding: 15px 20px;
-    color: #fff;
+    color: #ebebeb;
     text-decoration: none;
     padding: 30px 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 600;
     
 }
 .submenu ul a, .submenu2 ul a{

@@ -370,7 +370,7 @@ width:  400px;
   position: relative;
   height: 70px;
   width: 100%;
-  background-color: #1256a9;
+  background-color: #818181;
   border-radius:  40px 5px 0px 0px;
   padding-top: 7px;
   color: #ffffff;
@@ -379,8 +379,7 @@ width:  400px;
   text-align: center;
   letter-spacing: 1px !important;
   margin-left: 0;
-  /* margin-bottom: 30px !important; */
-  border: 2px solid #1256a9;
+  border: 2px solid #818181;
   text-shadow: 1px 1px black;
  
 }
@@ -396,9 +395,29 @@ width:  400px;
   height: 50px;
   width: 25px;
   border-top-left-radius: 25px;
-  box-shadow: 0 -25px 0 0 #1256a9;
+  box-shadow: 0 -25px 0 0 #818181;
 }
-
+/* .quienes-somos .t-historia{
+  background-color: #89122e;
+  border: 2px solid #89122e;
+}
+.quienes-somos .t-historia::before{
+  box-shadow: 0 -25px 0 0 #89122e;
+}
+.quienes-somos .t-mision{
+  background-color: #dba308;
+  border: 2px solid #dba308;
+}
+.quienes-somos .t-mision::before{
+  box-shadow: 0 -25px 0 0 #dba308;
+} */
+/* .quienes-somos .t-vision{
+  background-color: #2397f5;
+  border: 2px solid #2397f5;
+}
+.quienes-somos .t-vision::before{
+  box-shadow: 0 -25px 0 0 #2397f5;
+} */
 .quienes-somos .img-mision{
   position: absolute;
   width: 80px;

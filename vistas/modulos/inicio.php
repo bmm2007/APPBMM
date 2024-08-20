@@ -124,7 +124,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
 
 <section id="quienes-somos" class="quienes-somos">
     <div id="MISION" class="contenedor-historia content-d">
-        <h3 class="title-big mb-4 inverted-border-radius">HISTORIA</h3>
+        <h3 class="title-big mb-4 inverted-border-radius t-historia">HISTORIA</h3>
         <div class="img-historia"></div>
             <p class="text-para m-v-h">Somos una Institución Superior, que forma profesionales técnicos calificados
             en las Carreras Profesionales de Computación e Informática, Administración 
@@ -133,7 +133,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
             laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
     </div>
        <div class="contenedor-mision content-d">
-        <h3 class="title-big mb-4 inverted-border-radius">MISIÓN</h3>
+        <h3 class="title-big mb-4 inverted-border-radius t-mision">MISIÓN</h3>
         <div class="img-mision"></div>
             <p class="text-para m-v-h">Somos una Institución Superior, que forma profesionales técnicos calificados
             en las Carreras Profesionales de Computación e Informática, Administración 
@@ -142,7 +142,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
             laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
     </div>
     <div  class="contenedor-vision content-d">
-        <h3 class="title-big mb-4 inverted-border-radius">VISIÓN</h3>
+        <h3 class="title-big mb-4 inverted-border-radius t-vision">VISIÓN</h3>
         <div class="img-vision"></div>
         <p class="text-para m-v-h">Ser un Instituto de Educación Superior Tecnológico líder en Formación Técnica,
              utilizando los saberes del mundo globalizado para formar profesionales de 
