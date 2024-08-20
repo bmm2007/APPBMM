@@ -70,14 +70,11 @@ $time = time();
 
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Podrás desarrollar soluciones informáticas aplicando las técnicas y metodologías
-                        adecuadas, haciendo uso de herramientas tecnológicas idóneas para cada escenario.</li>
-                    <li><i class="fas fa-user-graduate"></i> Plantearás propuestas innovadoras de software que respondan a los requerimientos del
-                        cliente.</li>
-                    <li><i class="fas fa-user-graduate"></i> Liderarás equipos de trabajo para el cumplimiento de los objetivos.</li>
-                    <li><i class="fas fa-user-graduate"></i> Podrás utilizar diferentes soluciones tecnológicas y elegir las alternativas que optimicen
-                        tu desempeño.</li>
-                    <li><i class="fas fa-user-graduate"></i> Solucionarás problemas del quehacer profesional de manera efectiva.</li>
+                    <li><i class="fas fa-user-graduate"></i> Registrar y reportar todas las transacciones financieras de manera precisa, incluyendo la preparación de estados financieros y informes contables.</li>
+                    <li><i class="fas fa-user-graduate"></i> Aplicar principios y normas contables generalmente aceptados (GAAP) o Normas Internacionales de Información Financiera (NIIF) según corresponda.</li>
+                    <li><i class="fas fa-user-graduate"></i> Evaluar estados financieros y otros datos para identificar tendencias, riesgos y oportunidades, y proporcionar recomendaciones basadas en el análisis.</li>
+                    <li><i class="fas fa-user-graduate"></i> Preparar y presentar declaraciones fiscales, optimizar la planificación fiscal y asegurar el cumplimiento con las leyes y regulaciones fiscales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Realizar revisiones y auditorías internas para garantizar la precisión de los registros financieros y la adherencia a políticas y procedimientos.</li>
 
 
                 </ul>
@@ -87,20 +84,18 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-user-graduate"></i> DESEMPEÑO PROFESIONAL</h3>
 
                 <p class="text-para">
-                    Como especialista en computación e informática podrás desempeñarte en:
+                    Como especialista en Contabilidad podrás desempeñarte en:
                 </p>
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Áreas de informática, tecnología de información, desarrollo o sistemas en empresas de todo rubro.</li>
-                    <li><i class="fas fa-user-graduate"></i> Áreas de auditoría y control de sistemas de información.</li>
-                    <li><i class="fas fa-user-graduate"></i> Administración de base de datos y servidores como soporte especializado.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en outsourcing de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en venta y representación de soluciones
-                        informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Desarrollo independiente de soluciones informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas relacionadas al área de Ingeniería de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> En cuanto a institutos de computación e informática, Idat es reconocida por
-                        su trayectoria y vanguardia tecnológica.</li>
+                    <li><i class="fas fa-user-graduate"></i> Mantener registros financieros exactos y preparar estados financieros fiables.</li>
+                    <li><i class="fas fa-user-graduate"></i> Asegurar el cumplimiento con normas contables y regulaciones fiscales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Realizar análisis detallados para identificar tendencias y proporcionar recomendaciones.</li>
+                    <li><i class="fas fa-user-graduate"></i> Preparar declaraciones fiscales y optimizar la planificación tributaria.</li>
+                    <li><i class="fas fa-user-graduate"></i> Conducir auditorías para verificar la exactitud y adherencia a políticas.</li>
+                    <li><i class="fas fa-user-graduate"></i> Analizar y controlar los costos para mejorar la rentabilidad.</li>
+                    <li><i class="fas fa-user-graduate"></i> Desarrollar y supervisar presupuestos, ajustando según sea necesario.</li>
+                    <li><i class="fas fa-user-graduate"></i> Utilizar software contable para mejorar la eficiencia y precisión.</li>
 
                 </ul>
 

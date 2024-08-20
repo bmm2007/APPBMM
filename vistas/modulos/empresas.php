@@ -78,14 +78,11 @@ $time = time();
 
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Podrás desarrollar soluciones informáticas aplicando las técnicas y metodologías
-                        adecuadas, haciendo uso de herramientas tecnológicas idóneas para cada escenario.</li>
-                    <li><i class="fas fa-user-graduate"></i> Plantearás propuestas innovadoras de software que respondan a los requerimientos del
-                        cliente.</li>
-                    <li><i class="fas fa-user-graduate"></i> Liderarás equipos de trabajo para el cumplimiento de los objetivos.</li>
-                    <li><i class="fas fa-user-graduate"></i> Podrás utilizar diferentes soluciones tecnológicas y elegir las alternativas que optimicen
-                        tu desempeño.</li>
-                    <li><i class="fas fa-user-graduate"></i> Solucionarás problemas del quehacer profesional de manera efectiva.</li>
+                    <li><i class="fas fa-user-graduate"></i> La habilidad para motivar, guiar y coordinar a los empleados es crucial para asegurar un equipo productivo y cohesionado. Un buen líder fomenta un ambiente de trabajo positivo y eficiente.</li>
+                    <li><i class="fas fa-user-graduate"></i> La capacidad de tomar decisiones informadas y estratégicas, basadas en datos y análisis, es esencial para dirigir la empresa de manera efectiva y enfrentar los desafíos que surjan.</li>
+                    <li><i class="fas fa-user-graduate"></i> La habilidad para desarrollar y ejecutar estrategias a largo plazo que alineen los objetivos de la empresa con sus recursos y capacidades. Esto incluye la planificación financiera y el establecimiento de metas claras.</li>
+                    <li><i class="fas fa-user-graduate"></i> La comprensión de los aspectos financieros de la empresa, como la contabilidad, el análisis de presupuestos y la gestión de costos, es clave para mantener la salud financiera de la organización y tomar decisiones económicas acertadas.</li>
+                    <li><i class="fas fa-user-graduate"></i> La capacidad de ajustarse a los cambios en el entorno empresarial y adaptar estrategias y planes en respuesta a nuevas circunstancias o desafíos.</li>
 
 
                 </ul>
@@ -95,20 +92,18 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-user-graduate"></i> DESEMPEÑO PROFESIONAL</h3>
 
                 <p class="text-para">
-                    Como especialista en computación e informática podrás desempeñarte en:
+                    Como especialista en Administracion de Empresas podrás desempeñarte en:
                 </p>
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Áreas de informática, tecnología de información, desarrollo o sistemas en empresas de todo rubro.</li>
-                    <li><i class="fas fa-user-graduate"></i> Áreas de auditoría y control de sistemas de información.</li>
-                    <li><i class="fas fa-user-graduate"></i> Administración de base de datos y servidores como soporte especializado.</li>
+                    <li><i class="fas fa-user-graduate"></i> Alcanzar o superar los objetivos financieros y operativos establecidos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Mejorar procesos para reducir costos y aumentar la productividad.</li>
+                    <li><i class="fas fa-user-graduate"></i> Motivar y dirigir al equipo, fomentando un ambiente colaborativo y resolviendo conflictos.</li>
                     <li><i class="fas fa-user-graduate"></i> Empresas especializadas en outsourcing de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en venta y representación de soluciones
-                        informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Desarrollo independiente de soluciones informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas relacionadas al área de Ingeniería de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> En cuanto a institutos de computación e informática, Idat es reconocida por
-                        su trayectoria y vanguardia tecnológica.</li>
+                    <li><i class="fas fa-user-graduate"></i> Hacer decisiones basadas en análisis de datos y evaluación de riesgos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Transmitir información de manera clara a todos los niveles de la organización.</li>
+                    <li><i class="fas fa-user-graduate"></i> Completar proyectos a tiempo y dentro del presupuesto.</li>
+                    <li><i class="fas fa-user-graduate"></i> Implementar mejoras y adaptarse a las tendencias del mercado.</li>
 
                 </ul>
 
