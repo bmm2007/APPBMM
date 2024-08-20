@@ -70,14 +70,11 @@ $time = time();
 
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Podrás desarrollar soluciones informáticas aplicando las técnicas y metodologías
-                        adecuadas, haciendo uso de herramientas tecnológicas idóneas para cada escenario.</li>
-                    <li><i class="fas fa-user-graduate"></i> Plantearás propuestas innovadoras de software que respondan a los requerimientos del
-                        cliente.</li>
-                    <li><i class="fas fa-user-graduate"></i> Liderarás equipos de trabajo para el cumplimiento de los objetivos.</li>
-                    <li><i class="fas fa-user-graduate"></i> Podrás utilizar diferentes soluciones tecnológicas y elegir las alternativas que optimicen
-                        tu desempeño.</li>
-                    <li><i class="fas fa-user-graduate"></i> Solucionarás problemas del quehacer profesional de manera efectiva.</li>
+                    <li><i class="fas fa-user-graduate"></i> Entender las dinámicas y tendencias de los mercados internacionales, así como los factores económicos, políticos y culturales que afectan los negocios en diferentes regiones.</li>
+                    <li><i class="fas fa-user-graduate"></i> Establecer y mantener relaciones con socios, clientes y proveedores de diversos países, gestionando eficazmente la comunicación intercultural y las negociaciones.</li>
+                    <li><i class="fas fa-user-graduate"></i> Desarrollar estrategias para ingresar y expandirse en mercados internacionales, incluyendo la selección de modos de entrada, como exportación, joint ventures o alianzas estratégicas.</li>
+                    <li><i class="fas fa-user-graduate"></i> Familiaridad con las leyes, regulaciones y normativas internacionales que afectan el comercio y las operaciones transfronterizas, incluyendo aranceles, derechos de propiedad intelectual y normas de cumplimiento.</li>
+                    <li><i class="fas fa-user-graduate"></i> Manejar aspectos financieros complejos relacionados con el comercio internacional, como la gestión de divisas, la planificación fiscal y la financiación de operaciones globales.</li>
 
 
                 </ul>
@@ -87,20 +84,18 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-user-graduate"></i> DESEMPEÑO PROFESIONAL</h3>
 
                 <p class="text-para">
-                    Como especialista en computación e informática podrás desempeñarte en:
+                    Como especialista en Administración de Negocios Internacionales podrás desempeñarte en:
                 </p>
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Áreas de informática, tecnología de información, desarrollo o sistemas en empresas de todo rubro.</li>
-                    <li><i class="fas fa-user-graduate"></i> Áreas de auditoría y control de sistemas de información.</li>
-                    <li><i class="fas fa-user-graduate"></i> Administración de base de datos y servidores como soporte especializado.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en outsourcing de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en venta y representación de soluciones
-                        informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Desarrollo independiente de soluciones informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas relacionadas al área de Ingeniería de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> En cuanto a institutos de computación e informática, Idat es reconocida por
-                        su trayectoria y vanguardia tecnológica.</li>
+                    <li><i class="fas fa-user-graduate"></i> Alcanzar metas de crecimiento y rentabilidad en mercados globales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Mantener relaciones efectivas con socios, clientes y proveedores internacionales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Ajustar estrategias para ingresar y expandirse en mercados internacionales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Asegurar el cumplimiento con leyes y normativas internacionales.</li>
+                    <li><i class="fas fa-user-graduate"></i> EGestionar eficientemente logística y suministros a nivel global.</li>
+                    <li><i class="fas fa-user-graduate"></i> Manejar divisas, planificación fiscal y riesgos financieros globales.</li>
+                    <li><i class="fas fa-user-graduate"></i> Identificar y gestionar riesgos políticos y económicos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Implementar soluciones innovadoras y adaptarse a cambios globales.</li>
 
                 </ul>
 

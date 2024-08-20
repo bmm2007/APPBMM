@@ -71,13 +71,10 @@ $time = time();
 
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Podrás desarrollar soluciones informáticas aplicando las técnicas y metodologías
-                        adecuadas, haciendo uso de herramientas tecnológicas idóneas para cada escenario.</li>
-                    <li><i class="fas fa-user-graduate"></i> Plantearás propuestas innovadoras de software que respondan a los requerimientos del
-                        cliente.</li>
-                    <li><i class="fas fa-user-graduate"></i> Liderarás equipos de trabajo para el cumplimiento de los objetivos.</li>
-                    <li><i class="fas fa-user-graduate"></i> Podrás utilizar diferentes soluciones tecnológicas y elegir las alternativas que optimicen
-                        tu desempeño.</li>
+                    <li><i class="fas fa-user-graduate"></i> Planificar y organizar agendas, reuniones y eventos de manera efectiva para maximizar el tiempo y la productividad.</li>
+                    <li><i class="fas fa-user-graduate"></i> Redactar correspondencia, informes y otros documentos de manera clara y profesional, y comunicar información de forma eficiente tanto oral como escrita.</li>
+                    <li><i class="fas fa-user-graduate"></i> Gestionar y proteger información sensible con discreción y confidencialidad.</li>
+                    <li><i class="fas fa-user-graduate"></i> Realizar tareas administrativas como la gestión de correspondencia, archivo de documentos, y manejo de llamadas telefónicas y correos electrónicos.</li>
                     <li><i class="fas fa-user-graduate"></i> Solucionarás problemas del quehacer profesional de manera efectiva.</li>
 
 

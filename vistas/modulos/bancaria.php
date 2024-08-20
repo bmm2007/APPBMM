@@ -75,14 +75,11 @@ $time = time();
 
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Podrás desarrollar soluciones informáticas aplicando las técnicas y metodologías
-                        adecuadas, haciendo uso de herramientas tecnológicas idóneas para cada escenario.</li>
-                    <li><i class="fas fa-user-graduate"></i> Plantearás propuestas innovadoras de software que respondan a los requerimientos del
-                        cliente.</li>
-                    <li><i class="fas fa-user-graduate"></i> Liderarás equipos de trabajo para el cumplimiento de los objetivos.</li>
-                    <li><i class="fas fa-user-graduate"></i> Podrás utilizar diferentes soluciones tecnológicas y elegir las alternativas que optimicen
-                        tu desempeño.</li>
-                    <li><i class="fas fa-user-graduate"></i> Solucionarás problemas del quehacer profesional de manera efectiva.</li>
+                    <li><i class="fas fa-user-graduate"></i> Entender y manejar productos financieros, análisis de inversiones, gestión de riesgos y planificación financiera.</li>
+                    <li><i class="fas fa-user-graduate"></i> Conocer las leyes y regulaciones que rigen el sector bancario y asegurarse de que las operaciones cumplan con estos requisitos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Identificar, evaluar y mitigar riesgos financieros para proteger los activos y la estabilidad de la institución.</li>
+                    <li><i class="fas fa-user-graduate"></i> Realizar análisis de estados financieros, evaluar la salud financiera de la institución y tomar decisiones basadas en datos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Utilizar sistemas y herramientas tecnológicas para mejorar la eficiencia operativa y ofrecer servicios financieros innovadores.</li>
 
 
                 </ul>
@@ -92,20 +89,18 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-user-graduate"></i> DESEMPEÑO PROFESIONAL</h3>
 
                 <p class="text-para">
-                    Como especialista en computación e informática podrás desempeñarte en:
+                    Como especialista en Administración Bancaria podrás desempeñarte en:
                 </p>
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Áreas de informática, tecnología de información, desarrollo o sistemas en empresas de todo rubro.</li>
-                    <li><i class="fas fa-user-graduate"></i> Áreas de auditoría y control de sistemas de información.</li>
-                    <li><i class="fas fa-user-graduate"></i> Administración de base de datos y servidores como soporte especializado.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en outsourcing de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en venta y representación de soluciones
-                        informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Desarrollo independiente de soluciones informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas relacionadas al área de Ingeniería de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> En cuanto a institutos de computación e informática, Idat es reconocida por
-                        su trayectoria y vanguardia tecnológica.</li>
+                    <li><i class="fas fa-user-graduate"></i> Lograr objetivos financieros, como aumentar la rentabilidad, mejorar la eficiencia operativa y maximizar el rendimiento de las inversiones.</li>
+                    <li><i class="fas fa-user-graduate"></i> Identificar y gestionar riesgos financieros, incluyendo la evaluación de créditos, la prevención de fraudes y la protección contra pérdidas.</li>
+                    <li><i class="fas fa-user-graduate"></i> Asegurar el cumplimiento de todas las leyes y regulaciones bancarias, manteniendo la institución al día con los requisitos legales y normativos.</li>
+                    <li><i class="fas fa-user-graduate"></i> Proporcionar un excelente servicio al cliente, resolver problemas de manera efectiva y asesorar adecuadamente sobre productos y servicios financieros.</li>
+                    <li><i class="fas fa-user-graduate"></i> Realizar análisis detallados de estados financieros y otros datos clave para apoyar la toma de decisiones y las estrategias de inversión.</li>
+                    <li><i class="fas fa-user-graduate"></i> Dirigir y motivar al personal, gestionando equipos para alcanzar los objetivos de la institución y fomentar un ambiente de trabajo positivo.</li>
+                    <li><i class="fas fa-user-graduate"></i> Desarrollar y promover nuevos productos y servicios que satisfagan las necesidades de los clientes y respondan a las tendencias del mercado.</li>
+                    <li><i class="fas fa-user-graduate"></i> Mantener altos estándares éticos en todas las operaciones y decisiones, promoviendo la integridad y la confianza en la institución financiera.</li>
 
                 </ul>
 
