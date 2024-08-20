@@ -348,14 +348,13 @@ margin-right: 0;
 }
 .quienes-somos div{
 width:  400px;
-  background-color: #f7f7f7;
+  background-color: #fdfdfd;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 10px 20px 10px 10px;
   padding-bottom: 10px;
   text-align: justify;
   text-justify: inter-word;
-  border: 1px solid rgb(232, 232, 232);
-  padding-top: 0;
+  border: 1px solid rgb(217, 217, 217);
   border-top: 0;
 }
 
