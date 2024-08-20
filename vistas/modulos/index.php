@@ -122,10 +122,31 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
     </div>
 </section>
 
-<section id="quienes-somos"  class="quienes-somos">
-    <div></div>
-    <div></div>
-    <div></div>
+<section id="quienes-somos" class="quienes-somos">
+    <div id="MISION" class="Mision">
+        <h3 class="title-big mb-4">HISTORIA</h3>
+            <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
+            en las Carreras Profesionales de Computación e Informática, Administración 
+            Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
+            Administración de Negocios Internacionales; capaces de competir en el mercado 
+            laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
+    </div>
+       <div id="MISION" class="Mision">
+        <h3 class="title-big mb-4">MISIÓN</h3>
+            <p class="text-para">Somos una Institución Superior, que forma profesionales técnicos calificados
+            en las Carreras Profesionales de Computación e Informática, Administración 
+            Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
+            Administración de Negocios Internacionales; capaces de competir en el mercado 
+            laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
+    </div>
+    <div id="vision" class="vision">
+        <h3 class="title-big mb-4">VISIÓN</h3>
+        <p class="text-para">Ser un Instituto de Educación Superior Tecnológico líder en Formación Técnica,
+             utilizando los saberes del mundo globalizado para formar profesionales de 
+             calidad, con mentalidad empresarial, científica y practica; capaces de 
+             integrarse al mercado laboral con eficiencia y capacidad profesional en 
+             acorde con las exigencias del mundo laboral moderno.</p>
+    </div>
 </section>
 <!-- /main-slider -->
 <section class="w3l-courses">
@@ -138,13 +159,11 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
                 <div class="col-lg-5 feature-grid-left">
                     <!-- <h5 class="title-small mb-1">Study and graduate</h5> -->
                     <h3 class="title-big mb-4">Nuestras facilidades </h3>
-                    <p class="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                        lacinia est.
-                        Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                        Suspendisse non magna a velit efficitur. </p>
-                    <p class="text-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas ab qui impedit, libero illo
-                        quia sequi quibusdam iure. Error minus quod reprehenderit quae dolor velit soluta animi
-                        voluptate dicta enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, provident!</p>
+                    <p class="text-para">En el Instituto "Buenaventura Mestanza Mori", nos enorgullece ofrecer a nuestros estudiantes una educación de excelencia.
+
+Además, nuestro convenio institucional con la Universidad César Vallejo, filiales Moyobamba y Tarapoto, refuerza nuestro compromiso con la formación académica de calidad. Este acuerdo permite a nuestros estudiantes acceder a una variedad de programas de formación continua, intercambios académicos y oportunidades de colaboración que enriquecen su experiencia educativa y abren puertas a nuevas perspectivas profesionales.
+
+En el Instituto "Buenaventura Mestanza Mori", estamos dedicados a ofrecer una educación integral y de vanguardia, en estrecha colaboración con instituciones de renombre para asegurar el éxito y desarrollo de nuestros estudiantes.</p>
                     <a href="#url" class="btn btn-primary btn-style btn-style-g  mt-md-5 mt-4">Discover More</a>
                 </div>
                 <div class="col-lg-7 feature-grid-right mt-lg-0 mt-5">
