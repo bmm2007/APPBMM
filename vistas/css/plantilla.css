@@ -460,10 +460,19 @@ width:  400px;
     background-repeat: no-repeat;
     top: 40px;
     border: 0;
+} 
+
+.title-head img{
+  max-width: 150px !important;
 }
-
-
-
+.title-head .img-awajun{
+  max-width: 100px !important;
+  margin-bottom: 15px !important;
+}
+.w3l-features .grids-1 {
+  padding: 0 30px;
+  padding-bottom: 20px;
+}
 
 
 
