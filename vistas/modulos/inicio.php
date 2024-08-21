@@ -171,7 +171,7 @@ En el Instituto "Buenaventura Mestanza Mori", estamos dedicados a ofrecer una ed
                             <h4 style="text-align: center;"><a href="#feature" class="title-head"> <img src="vistas/img/ucv.jpg" alt="logo ucv">Convalidacion ucv</a></h4>
                             <p>Conoce mas sobre nuestro convenio institucional que te permitirá continuar con tus estudios profesionales</p>
                         </div>
-                        <div class="grids-1 box-wrap">
+                        <div class="grids-1 box-wrap convenio-section">
                             <h4 style="text-align: center;"><a href="#feature" class="title-head"> <img src="vistas/img/awajun.png" alt="logo awajun" class="img-awajun"> Convenio Awajún</a></h4>
                             <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
                         </div>
