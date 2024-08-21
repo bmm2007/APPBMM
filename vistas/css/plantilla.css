@@ -397,7 +397,7 @@ width:  400px;
   border-top-left-radius: 25px;
   box-shadow: 0 -25px 0 0 #818181;
 }
-/* .quienes-somos .t-historia{
+.quienes-somos .t-historia{
   background-color: #89122e;
   border: 2px solid #89122e;
 }
@@ -410,14 +410,14 @@ width:  400px;
 }
 .quienes-somos .t-mision::before{
   box-shadow: 0 -25px 0 0 #dba308;
-} */
-/* .quienes-somos .t-vision{
+} 
+.quienes-somos .t-vision{
   background-color: #2397f5;
   border: 2px solid #2397f5;
 }
 .quienes-somos .t-vision::before{
   box-shadow: 0 -25px 0 0 #2397f5;
-} */
+}
 .quienes-somos .img-mision{
   position: absolute;
   width: 80px;
