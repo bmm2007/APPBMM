@@ -85,20 +85,18 @@ $time = time();
                 <h3 class="title-big text-center mb-sm-5 mb-4"><i class="fas fa-user-graduate"></i> DESEMPEÑO PROFESIONAL</h3>
 
                 <p class="text-para">
-                    Como especialista en computación e informática podrás desempeñarte en:
+                    Como especialista en secretariado ejecutivo podrás desempeñarte en:
                 </p>
 
                 <ul class="list-group-capa">
-                    <li><i class="fas fa-user-graduate"></i> Áreas de informática, tecnología de información, desarrollo o sistemas en empresas de todo rubro.</li>
-                    <li><i class="fas fa-user-graduate"></i> Áreas de auditoría y control de sistemas de información.</li>
-                    <li><i class="fas fa-user-graduate"></i> Administración de base de datos y servidores como soporte especializado.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en outsourcing de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas especializadas en venta y representación de soluciones
-                        informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Desarrollo independiente de soluciones informáticas.</li>
-                    <li><i class="fas fa-user-graduate"></i> Empresas relacionadas al área de Ingeniería de sistemas.</li>
-                    <li><i class="fas fa-user-graduate"></i> En cuanto a institutos de computación e informática, Idat es reconocida por
-                        su trayectoria y vanguardia tecnológica.</li>
+                    <li><i class="fas fa-user-graduate"></i> Manejo eficaz de agendas, reuniones y prioridades</li>
+                    <li><i class="fas fa-user-graduate"></i> Redacción clara y comunicación profesional, tanto verbal como escrita.</li>
+                    <li><i class="fas fa-user-graduate"></i> Dominio de software como Microsoft Office y herramientas de gestión.</li>
+                    <li><i class="fas fa-user-graduate"></i> Manejo discreto de información sensible.</li>
+                    <li><i class="fas fa-user-graduate"></i> Habilidades para trabajar en equipo y tratar con ejecutivos y clientes.</li>
+                    <li><i class="fas fa-user-graduate"></i> Flexibilidad para manejar cambios y múltiples tareas.</li>
+                    <li><i class="fas fa-user-graduate"></i> Precisión en la realización de tareas y documentación.</li>
+                    <li><i class="fas fa-user-graduate"></i> Actualización constante de habilidades y conocimientos.</li>
 
                 </ul>
 
