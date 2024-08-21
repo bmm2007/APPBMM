@@ -3,8 +3,6 @@
 use Controladores\ControladorCrear;
 
 
-
-
 $tabla = 'noticias ORDER BY  id DESC LIMIT 4';
 $item = null;
 $valor = null;
@@ -126,11 +124,8 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
     <div id="MISION" class="contenedor-historia content-d">
         <h3 class="title-big mb-4 inverted-border-radius t-historia">HISTORIA</h3>
         <div class="img-historia"></div>
-            <p class="text-para m-v-h">Somos una Institución Superior, que forma profesionales técnicos calificados
-            en las Carreras Profesionales de Computación e Informática, Administración 
-            Bancaria, Secretariado Ejecutivo, Administración de Empresas, Contabilidad y 
-            Administración de Negocios Internacionales; capaces de competir en el mercado 
-            laboral dentro de la administración y el comercio, respetando su identidad y valores.</p>
+            <p class="text-para m-v-h"> El Instituto Superior Tecnológico "Buenaventura Mestanza Mori", fundado el 7 de junio de 2007 en San Martín, Perú, es un líder en educación técnica con carreras en Computación, Secretariado Ejecutivo Bilingüe, Administración Bancaria y Contabilidad. Con moderna infraestructura y un equipo capacitado, ofrece a sus estudiantes la oportunidad de continuar sus estudios en la Universidad César Vallejo. Con la vista en el futuro, el instituto se proyecta para convertirse en una universidad, reafirmando su compromiso de servir a la juventud.   
+</p>
     </div>
        <div class="contenedor-mision content-d">
         <h3 class="title-big mb-4 inverted-border-radius t-mision">MISIÓN</h3>
@@ -172,17 +167,15 @@ En el Instituto "Buenaventura Mestanza Mori", estamos dedicados a ofrecer una ed
                 </div>
                 <div class="col-lg-7 feature-grid-right mt-lg-0 mt-5">
                     <div class="call-grids-w3 d-grid">
-                        <div class="grids-1 box-wrap">
-                            <a href="#more" class="icon"><span class="fa fa-certificate"></span></a>
-                            <h4><a href="#feature" class="title-head">Global Certificate</a></h4>
-                            <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.</p>
+                        <div class="grids-1 box-wrap convenio-section">
+                            <h4 style="text-align: center;"><a href="#feature" class="title-head"> <img src="vistas/img/ucv.jpg" alt="logo ucv">Convalidacion ucv</a></h4>
+                            <p>Conoce mas sobre nuestro convenio institucional que te permitirá continuar con tus estudios profesionales</p>
                         </div>
-                        <div class="grids-1 box-wrap">
-                            <a href="#more" class="icon"><span class="fa fa-book"></span></a>
-                            <h4><a href="#feature" class="title-head">Books & Library</a></h4>
+                        <div class="grids-1 box-wrap convenio-section">
+                            <h4 style="text-align: center;"><a href="#feature" class="title-head"> <img src="vistas/img/awajun.png" alt="logo awajun" class="img-awajun"> Convenio Awajún</a></h4>
                             <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
                         </div>
-                        <div class="grids-1 box-wrap">
+                        <!-- <div class="grids-1 box-wrap">
                             <a href="#more" class="icon"><span class="fa fa-trophy"></span></a>
                             <h4><a href="#feature" class="title-head">Scholarship</a></h4>
                             <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
@@ -191,7 +184,7 @@ En el Instituto "Buenaventura Mestanza Mori", estamos dedicados a ofrecer una ed
                             <a href="#more" class="icon"><span class="fa fa-graduation-cap"></span></a>
                             <h4><a href="#feature" class="title-head">Alumni Support</a></h4>
                             <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
