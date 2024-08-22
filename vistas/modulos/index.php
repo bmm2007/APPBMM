@@ -158,7 +158,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
                     <!-- <h5 class="title-small mb-1">Study and graduate</h5> -->
                     <h3 class="title-big mb-4" style="text-align:center">Nuestras facilidades </h3>
 
-                    <p class="text-para">En el Instituto "Buenaventura Mestanza Mori", nos enorgullece ofrecer a nuestros estudiantes una educación de excelencia.
+                    <p class="text-para" style="padding-left: 10px; padding-right: 10px;">En el Instituto "Buenaventura Mestanza Mori", nos enorgullece ofrecer a nuestros estudiantes una educación de excelencia.
 
 Además, nuestro convenio institucional con la Universidad César Vallejo, filiales Moyobamba y Tarapoto, refuerza nuestro compromiso con la formación académica de calidad. <br/>Este acuerdo permite a nuestros estudiantes acceder a una variedad de programas de formación continua, intercambios académicos y oportunidades de colaboración que enriquecen su experiencia educativa y abren puertas a nuevas perspectivas profesionales.<br/>
 
