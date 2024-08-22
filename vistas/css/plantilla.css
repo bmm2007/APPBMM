@@ -469,6 +469,10 @@ width:  400px;
   max-width: 100px !important;
   margin-bottom: 15px !important;
 }
+.title-head .img-ucv{
+  padding-top: 15px !important;
+  margin-bottom: 15px !important;
+}
 .w3l-features .grids-1 {
   padding: 0 20px;
   padding-bottom: 20px;
