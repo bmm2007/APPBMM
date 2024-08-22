@@ -124,7 +124,7 @@ $resultadoEventos = ControladorCrear::ctrMostrar($tabla, $item, $valor);
     <div id="MISION" class="contenedor-historia content-d">
         <h3 class="title-big mb-4 inverted-border-radius t-historia">HISTORIA</h3>
         <div class="img-historia"></div>
-            <p class="text-para m-v-h"> El Instituto Superior Tecnológico "Buenaventura Mestanza Mori", fundado el 7 de junio de 2007 en San Martín, Perú, es un líder en educación técnica con carreras en Computación, Secretariado Ejecutivo Bilingüe, Administración Bancaria y Contabilidad. Con moderna infraestructura y un equipo capacitado, ofrece a sus estudiantes la oportunidad de continuar sus estudios en la Universidad César Vallejo. Con la vista en el futuro, el instituto se proyecta para convertirse en una universidad, reafirmando su compromiso de servir a la juventud.   
+            <p class="text-para m-v-h"> El Instituto Superior Tecnológico "Buenaventura Mestanza Mori", fundado el 7 de junio de 2007 en San Martín, Perú, es un líder en educación técnica con carreras en Computación, Secretariado Ejecutivo Bilingüe, Administración Bancaria y Contabilidad. Con moderna infraestructura y un equipo capacitado, ofrece a sus estudiantes la oportunidad de continuar sus estudios en la Universidad César Vallejo.
 </p>
     </div>
        <div class="contenedor-mision content-d">
