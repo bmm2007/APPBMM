@@ -38,11 +38,13 @@ use Controladores\ControladorCrear;
          <?php
          foreach ($resultado as $k => $v) {
             $date = date_create($v['fecha']);
+            $link = str_replace(' ', '_', $v['titulo']);
+            $linkup = mb_strtolower($link);
             echo '<div class="contenedor-carreras">
             <div class="carrera-p">
                <div class="fondo-carrera"></div>
                <div class="foto-carrera"><a class="" href=""><img src="vistas/img/noticias/' . $v['foto'] . '" width="100%"></img></a></div>
-               <div class="titulo-profesion">' . mb_strtoupper($v['titulo'], 'utf-8') . '</div>
+               <a href="noti/'.$linkup.'" class="titulo-profesion">' . mb_strtoupper($v['titulo'], 'utf-8') . '</a>
                <div class="date-ne">' . date_format($date, "d/m/Y h:i:s A") . ' <i class="fas fa-calendar"></i></div>
             </div>
             </div>';
@@ -68,11 +70,13 @@ use Controladores\ControladorCrear;
          <?php
          foreach ($resultadoEventos as $k => $v) {
             $date = date_create($v['fecha']);
+            $link = str_replace(' ', '_', $v['titulo']);
+            $linkup = mb_strtolower($link);
             echo '<div class="contenedor-carreras">
             <div class="carrera-p">
                <div class="fondo-carrera"></div>
                <div class="foto-carrera"><a class="" href=""><img src="vistas/img/eventos/' . $v['foto'] . '" width="100%"></img></a></div>
-               <div class="titulo-profesion">' . mb_strtoupper($v['titulo'], 'utf-8') . '</div>
+               <a href="event/'.$linkup.'"  target="_blank"  class="titulo-profesion">' . mb_strtoupper($v['titulo'], 'utf-8') . '</a>
                <div class="date-ne">' . date_format($date, "d/m/Y h:i:s A") . ' <i class="fas fa-calendar"></i></div>
             </div>
             </div>';
