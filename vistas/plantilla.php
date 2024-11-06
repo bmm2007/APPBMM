@@ -186,6 +186,7 @@ session_start();
           $_GET["ruta"] == "secretariado" ||
           $_GET["ruta"] == "negocios" ||
           $_GET["ruta"] == "noti" ||
+          $_GET["ruta"] == "event" ||
           $_GET["ruta"] == "contacto"
         ) {
 

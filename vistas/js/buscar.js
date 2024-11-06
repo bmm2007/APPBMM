@@ -74,3 +74,20 @@ $(document).on("change", "#dni", function () {
     },
   });
 });
+$(document).on('click', '.btnpush', function() {
+  const newURL = "/apbmm/noti/docentes_de_nuestra_casa_de_estudios_promueven_la_educaciónyyyy";
+history.pushState(null, "", newURL);
+$.ajax({
+  url: '../vistas/modulos/otro.php',
+  
+  method: 'GET', 
+  beforeSend: function(){
+
+         
+  }, 
+  success: function(data){
+    $(".conte-p").html(data);    
+          
+  }
+})
+})
