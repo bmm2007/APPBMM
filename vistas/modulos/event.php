@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../vistas/css/plantilla.css">
 <?php
 require_once "../../vendor/autoload.php";
 use Controladores\ControladorCrear;
@@ -7,12 +8,39 @@ $tabla = 'eventos';
 $item = 'titulo';
 $valor = $titulo;
 $resultado = ControladorCrear::ctrMostrar($tabla, $item, $valor);
+$tabla = 'eventos';
+$item = null;
+$valor = null;
+$resultadon = ControladorCrear::ctrMostrarUltimas($tabla, $item, $valor);
 
-print_r($resultado['titulo']);
-echo '</br>';
-print_r($resultado['descripcion']);
+?>
+<section class="contenedor-principal-ne">
+<div class="contenedor-noticia-c">
+<?php
+    echo '<h3>'.$resultado['titulo'].'</h3>';
+    echo '</br>';
+    echo '<img src="../vistas/img/eventos/'.$resultado['foto'].'" alt="" width="550px">';
+    echo '<h3>'.$resultado['descripcion'].'</h3>';
 echo '</br>';
 print_r($resultado['texto']);
-?>
 
-<img src="../vistas/img/eventos/<?php echo $resultado['foto'] ?>" alt="" width="450">
+?>
+</div>
+<div class="contenedor-mas-vistas">
+    <h3>ÚLTIMOSS EVENTOS</h3>
+    <?php
+    foreach($resultadon as $k => $result):
+        if($result['id'] != $resultado['id']){
+        
+echo '<div>';
+    
+echo '<img src="../vistas/img/eventos/'.$result['foto'].'" alt=""';
+
+echo '</div>';
+            };
+endforeach
+?>
+</div>
+</section>
+
+<script src="../vistas/js/buscar.js"></script>

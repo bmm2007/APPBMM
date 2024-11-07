@@ -10,6 +10,11 @@ class ControladorCrear{
         $respuesta = ModeloCrear::mdlMostrar($tabla, $item, $valor);
         return $respuesta;
     }
+    public static function ctrMostrarUltimas($tabla, $item, $valor) {
+
+      $respuesta = ModeloCrear::mdlMostrarUltimas($tabla, $item, $valor);
+      return $respuesta;
+  }
     
 public static function ctrCrear($datos, $file){
 

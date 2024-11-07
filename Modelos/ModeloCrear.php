@@ -29,6 +29,29 @@ class ModeloCrear{
     $stmt = null;
  }
  
+ public static function mdlMostrarUltimas($tabla, $item, $valor) {
+        
+    if($item != null){
+
+        $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla  WHERE $item = :$item ORDER BY id DESC");
+        $stmt->bindParam(":".$item, $valor, PDO::PARAM_STR);
+
+        $stmt->execute();
+        return $stmt->fetch();
+
+    }else{
+        $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id DESC LIMIT 4");
+        //$stmt->bindParam(":".$item, $valor, PDO::PARAM_STR);    
+        $stmt->execute();
+        return $stmt->fetchall();
+
+    }
+   
+
+    $stmt->close();
+    $stmt = null;
+ }
+ 
 // REGISTRO DE PRODUCTOS
 public static function mdlCrear($tabla, $datosCrear){
 

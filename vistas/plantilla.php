@@ -51,11 +51,15 @@ session_start();
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <!-- Bootstrap 3.3.7 -->
-  <!-- <link rel="stylesheet" type="text/css" href="vistas/modulos/style.php"> -->
-  <link rel="stylesheet" href="vistas/assets/css/style-starter.css">
+  <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="vistas/pack/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
   <link href="vistas/pack/bower_components/toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="vistas/pack/bower_components/font-awesome/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="vistas/pack/bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="vistas/pack/bower_components/Ionicons/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="vistas/pack/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <!-- Ionicons -->
@@ -65,9 +69,21 @@ session_start();
 
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="vistas/pack/dist/css/skins/_all-skins.min.css">
+  <!-- <link rel="stylesheet" href="vistas/pack/dist/css/skins/_all-skins.min.css"> -->
 
   <link rel="stylesheet" href="vistas/pack/bower_components/fontawesome-free/css/all.css">
+
+
+  <link rel="stylesheet" href="vistas/assets/css/style-starter.css">
+  <link rel="stylesheet" href="vistas/pack/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="vistas/pack/bower_components/toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <!--bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="vistas/pack/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+
+  <link rel="stylesheet" href="vistas/css/form.css">
+  <link rel="stylesheet" href="vistas/css/menu.css">
+  <link rel="stylesheet" href="vistas/css/plantilla.css">
+  <link rel="stylesheet" href="vistas/css/sistem.css">
 
 
   <!-- bootstrap wysihtml5 - text editor -->
@@ -83,7 +99,7 @@ session_start();
 
 
 
-  <!-- Template JavaScript -->
+    <!-- Template JavaScript -->
   <!-- <script src="vistas/assets/js/jquery-3.3.1.min.js"></script> -->
   <!-- jQuery 3 -->
   <script src="vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
@@ -101,7 +117,7 @@ session_start();
   <script src="vistas/pack/bower_components/datatables.net-bs/js/responsive.bootstrap.min.js"></script>
   <!-- DTEPICKER -->
   <!-- daterangepicker -->
-  <script src="vistas/pack/bower_components/moment/min/moment.min.js"></script>
+  <!-- <script src="vistas/pack/bower_components/moment/min/moment.min.js"></script> -->
   <script src="vistas/pack/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 
   <!-- DTEPICKER -->
@@ -109,6 +125,13 @@ session_start();
   <script src="vistas/pack/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js"></script>
 
   <script src="vistas/pack/mask/jquery.mask.js"></script>
+  <!-- sweet alert -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
+  <script src="vistas/pack/plugins/sweetalert/sweetalert2.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- CK Editor -->
+  <script src="vistas/pack/bower_components/ckeditor/ckeditor.js"></script>
   <!-- sweet alert -->
   <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
   <script src="vistas/pack/plugins/sweetalert/sweetalert2.js"></script>
