@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="es">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../vistas/css/notiev.css">
-<script src="../vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
-</head>
-<body>
-
 <?php
 
 require_once "../../vendor/autoload.php";
@@ -26,6 +14,20 @@ $valor = null;
 $resultadon = ControladorCrear::ctrMostrarUltimas($tabla, $item, $valor);
 
 ?>
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><?php echo $resultado['titulo'] ?></title>
+<link rel="stylesheet" href="../vistas/css/notiev.css">
+<script src="../vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+
 <section class="contenedor-principal-ne">
 <div class="contenedor-noticia-c">
 <?php
