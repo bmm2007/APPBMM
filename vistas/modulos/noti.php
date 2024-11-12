@@ -1,5 +1,15 @@
-<link rel="stylesheet" href="../vistas/css/plantilla.css">
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../vistas/css/notiev.css">
 <script src="../vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
 <?php
 
 require_once "../../vendor/autoload.php";
@@ -23,8 +33,8 @@ $resultadon = ControladorCrear::ctrMostrarUltimas($tabla, $item, $valor);
     echo '</br>';
     echo '<img src="../vistas/img/noticias/'.$resultado['foto'].'" alt="" width="550px">';
     echo '<h3>'.$resultado['descripcion'].'</h3>';
-echo '</br>';
-print_r($resultado['texto']);
+// echo '</br>';
+echo $resultado['texto'];
 
 ?>
 </div>
@@ -46,5 +56,8 @@ endforeach
 </section>
 
 <script src="../vistas/js/buscar.js"></script>
+    
+</body>
+</html>
 <!-- <button class="btnpush btn btn-primary">cambio</button> -->
 <!-- <div class="conte-p"></div> -->
