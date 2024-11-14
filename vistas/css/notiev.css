@@ -27,6 +27,7 @@ html {
     line-height: 30px;
     letter-spacing: 1px;
     height: 99vh;
+    overflow-y: auto;
   }
   .contenedor-mas-vistas{
     display: flex;
@@ -44,7 +45,7 @@ html {
      background: url(../assets/images/banner1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    background-position: 800px;
     top: 0;
     border-radius: 15px;
     left: 0;
@@ -127,6 +128,15 @@ html {
     font-size: .8em;
     text-align: right;
     letter-spacing: 1px;
+  }
+  .home-p{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .home-p i{
+    font-size: 2em;
   }
   @media  (max-width: 768px) {
     .contenedor-principal-ne{

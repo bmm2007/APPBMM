@@ -65,7 +65,7 @@ endforeach
 </section>
 
 <script src="../vistas/js/buscar.js"></script>
-    
+  <div class="home-p"><a href="../inicio"><i class="fas fa-home fa-lg"></i></a></div>  
 </body>
 </html>
 <!-- <button class="btnpush btn btn-primary">cambio</button> -->
