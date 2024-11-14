@@ -1,23 +1,58 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden;
+  }
+  body{
   }
   
   *, *::before, *::after {
     box-sizing: inherit;
   }
+  /* Works on Chrome, Edge, and Safari */
+.contenedor-noticia-c::-webkit-scrollbar {
+  width: 12px;
+}
+
+.contenedor-noticia-c::-webkit-scrollbar-track {
+  background: rgb(232, 232, 232);
+}
+
+.contenedor-noticia-c::-webkit-scrollbar-thumb {
+  background-color: rgb(225, 225, 225);
+  border-radius: 20px;
+  border: 3px solid rgb(255, 255, 255);
+}
+  /* Works on Chrome, Edge, and Safari */
+.contenedor-mas-vistas::-webkit-scrollbar {
+  width: 12px;
+}
+
+.contenedor-mas-vistas::-webkit-scrollbar-track {
+  background: rgb(232, 232, 232);
+}
+
+.contenedor-mas-vistas::-webkit-scrollbar-thumb {
+  background-color: rgb(225, 225, 225);
+  border-radius: 20px;
+  border: 3px solid rgb(255, 255, 255);
+}
 .contenedor-principal-ne{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     height: 100vh;
     background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0;
   }
   .contenedor-noticia-c{
     width: 67%;
     background-color: #ffffff00;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
     font-size: 1.4em;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +80,6 @@ html {
      background: url(../assets/images/banner1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 800px;
     top: 0;
     border-radius: 15px;
     left: 0;
@@ -101,6 +135,9 @@ html {
     opacity: 0.8;
     
   }
+  .contenedor-noticia-c .h3-descripcion{
+    margin-bottom: 20px;
+  }
   .contenedor-mas-vistas h3{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -138,26 +175,45 @@ html {
   .home-p i{
     font-size: 2em;
   }
+  .share-ne{
+    position: fixed;
+    bottom: 35px !important ;
+    left: 10px !important;
+  }
+  .btn-wts{
+  position: fixed;
+  bottom: 40px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+   background-color: #3f42a3;
+  background: url(../img/wt.png) no-repeat center !important;
+  background-size: cover !important; 
+  border-radius: 50%;
+  z-index: 100;
+  opacity: 1 !important;
+  }
   @media  (max-width: 768px) {
     .contenedor-principal-ne{
       flex-flow: wrap !important;
-      height: auto;
+      overflow-y: scroll;
+     
     }
     .contenedor-noticia-c{
       width: 100%;
-      height: auto;
     }
     .contenedor-mas-vistas{
       width: 100%;
-      height: auto;
     }
     .contenedor-noticia-c   img{
       width: 100%  !important;
+      height: auto;
     }
   }
   @media  (max-width: 1152px) {
     .contenedor-noticia-c   img{
         width: 100%  !important;
+        height: auto;
       }
   }
  

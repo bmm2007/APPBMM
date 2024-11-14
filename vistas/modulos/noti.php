@@ -38,7 +38,7 @@ $date = date_create($resultado['fecha']);
     echo '</br>';
     echo '<img src="../vistas/img/noticias/'.$resultado['foto'].'" alt="" width="550px">';
    
-    echo '<h3>'.$resultado['descripcion'].'</h3>';
+    echo '<h3 class="h3-descripcion">'.$resultado['descripcion'].'</h3>';
 // echo '</br>';
 echo $resultado['texto'];
 
@@ -66,7 +66,31 @@ endforeach
 
 <script src="../vistas/js/buscar.js"></script>
   <div class="home-p"><a href="../inicio"><i class="fas fa-home fa-lg"></i></a></div>  
+
+
+
+
+
+<!-- Your share button code -->
+<?php
+$rura = $_REQUEST['titulo'];
+?>
+
+<div class="fb-share-button share-ne" data-href="http://localhost/apbmm/noti/<?php echo $ruta; ?>" data-layout="button" data-size="large">
+</div>
+
+<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
+
+
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 </body>
 </html>
-<!-- <button class="btnpush btn btn-primary">cambio</button> -->
-<!-- <div class="conte-p"></div> -->
