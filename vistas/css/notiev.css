@@ -125,6 +125,7 @@ html {
   .contenedor-noticia-c   img{
     float: left;
     padding: 10px;
+    border-radius: 20px;
   }
   .contenedor-noticia-c h3{
     text-transform: uppercase;
