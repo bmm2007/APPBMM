@@ -4,9 +4,10 @@ html {
     overflow: hidden;
   }
   body{
+    background-color: #ffffff;
   }
   
-  *, *::before, *::after {
+ *, *::before, *::after {
     box-sizing: inherit;
   }
   /* Works on Chrome, Edge, and Safari */
@@ -43,7 +44,7 @@ html {
     width: 100%;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     padding: 0px;
     margin: 0;
   }

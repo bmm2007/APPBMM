@@ -39,14 +39,14 @@ $date = date_create($resultado['fecha']);
     echo '</br>';
     echo '<img src="../vistas/img/eventos/'.$resultado['foto'].'" alt="" width="550px">';
    
-    echo '<h3>'.$resultado['descripcion'].'</h3>';
+    echo '<h3 class="h3-descripcion">'.$resultado['descripcion'].'</h3>';
 // echo '</br>';
 echo $resultado['texto'];
 
 ?>
 </div>
 <div class="contenedor-mas-vistas">
-    <h3>ÚLTIMOS EVENTOS</h3>
+    <h3>ÚLTIMAS NOTICIAS</h3>
     <?php
     foreach($resultadon as $k => $result):
         if($result['id'] != $resultado['id']){
@@ -66,7 +66,22 @@ endforeach
 </section>
 
 <script src="../vistas/js/buscar.js"></script>
-<div class="home-p"><a href="../inicio"><i class="fas fa-home fa-lg"></i></a></div>
+  <div class="home-p"><a href="../inicio"><i class="fas fa-home fa-lg"></i></a></div>  
+
+
+
+
+
+<!-- Your share button code -->
+<?php
+$rura = $_REQUEST['titulo'];
+?>
+
+<div class="fb-share-button share-ne" data-href="http://localhost/apbmm/event/<?php echo $ruta; ?>" data-layout="button" data-size="large">
+</div>
+
+<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
+
 
 <script>
   (function(d, s, id) {
@@ -78,12 +93,6 @@ endforeach
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
-
-<!-- Your share button code -->
-<?php
-$rura = $_REQUEST['titulo'];
-?>
-<div class="fb-share-button share-ne" data-href="http://localhost/apbmm/event/<?php echo $ruta; ?>" data-layout="button" data-size="large">
 </body>
 </html>
 <!-- <button class="btnpush btn btn-primary">cambio</button> -->
