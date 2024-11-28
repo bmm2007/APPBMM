@@ -22,11 +22,17 @@ $date = date_create($resultado['fecha']);
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta property="og:url" content="https://istbm.edu.pe/event/<?php echo $resultado['titulo']?>" />
+<meta property="og:type" content="noticia" />
+<meta property="og:title" content="<?php echo $resultado['titulo'] ?>" />
+<meta property="og:description" content="<?php echo $resultado['descripcion']?>" />
+  <meta property="og:image" content="https://istbm.edu.pe/vistas/img/eventos/<?php echo $resultado['foto']?>"/> -->
   <title><?php echo $resultado['titulo'] ?></title>
   <link rel="stylesheet" href="../vistas/pack/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../vistas/pack/bower_components/fontawesome-free/css/all.css">
 <link rel="stylesheet" href="../vistas/css/notiev.css">
 <script src="../vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v21.0&appId=255718034026933"></script> -->
 </head>
 <body>
 
@@ -73,16 +79,7 @@ endforeach
 
 
 <!-- Your share button code -->
-<?php
-$rura = $_REQUEST['titulo'];
-?>
-
-<div class="fb-share-button share-ne" data-href="http://localhost/apbmm/event/<?php echo $ruta; ?>" data-layout="button" data-size="large">
-</div>
-
-<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
-
-
+<div id="fb-root"></div>
 <script>
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -93,7 +90,18 @@ $rura = $_REQUEST['titulo'];
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+<!-- Your share button code -->
+<?php
+$rutas = isset($_GET['titulo']) ? $_GET['titulo'] : $_GET['titulo'] = '';
+?>
+
+<div class="fb-share-button share-ne" data-href="https://istbm.edu.pe/event/<?php echo $rutas; ?>" data-layout="button" data-size="large">
+</div>
+
+<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
+
+
+
+
 </body>
 </html>
-<!-- <button class="btnpush btn btn-primary">cambio</button> -->
-<!-- <div class="conte-p"></div> -->

@@ -41,12 +41,12 @@ html {
 .contenedor-principal-ne{
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
-    justify-content: center;
+    width: 100vw;
+    justify-content: space-between;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0);
     padding: 0px;
-    margin: 0;
+    margin: 0px;
   }
   .contenedor-noticia-c{
     width: 67%;

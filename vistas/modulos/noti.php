@@ -3,7 +3,7 @@
 require_once "../../vendor/autoload.php";
 
 use Controladores\ControladorCrear;
-// echo $_REQUEST['idn'];
+$link = $_REQUEST['titulo'];
 $titulo = str_replace('-', ' ', $_REQUEST['titulo']);
 $tabla = 'noticias';
 $item = 'titulo';
@@ -21,11 +21,17 @@ $date = date_create($resultado['fecha']);
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta property="og:url" content="https://istbm.edu.pe/noti/<?php echo $resultado['titulo']?>" />
+<meta property="og:type" content="noticia" />
+<meta property="og:title" content="<?php echo $resultado['titulo'] ?>" />
+<meta property="og:description" content="<?php echo $resultado['descripcion']?>" />
+  <meta property="og:image" content="https://istbm.edu.pe/vistas/img/noticias/<?php echo $resultado['foto']?>"/> -->
   <title><?php echo $resultado['titulo'] ?></title>
   <link rel="stylesheet" href="../vistas/pack/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../vistas/pack/bower_components/fontawesome-free/css/all.css">
 <link rel="stylesheet" href="../vistas/css/notiev.css">
 <script src="../vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -71,18 +77,8 @@ endforeach
 
 
 
-<!-- Your share button code -->
-<?php
-$rura = $_REQUEST['titulo'];
-?>
 
-<div class="fb-share-button share-ne" data-href="http://localhost/apbmm/noti/<?php echo $ruta; ?>" data-layout="button" data-size="large">
-</div>
-
-<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
-
-
-<script>
+  <script>
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -92,5 +88,16 @@ $rura = $_REQUEST['titulo'];
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+<!-- Your share button code -->
+<?php
+$rutas = isset($_GET['titulo']) ? $_GET['titulo'] : $_GET['titulo'] = '';
+?>
+
+<div class="fb-share-button share-ne" data-href="https://istbm.edu.pe/noti/<?php echo $rutas; ?>" data-layout="button" data-size="large">
+</div>
+
+<a class="btn-wts what-btn" href="https://wa.me/51901733995/?text=Quiero%20Información" target="_blank"></a>
+
+
 </body>
 </html>

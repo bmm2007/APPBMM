@@ -45,12 +45,11 @@ session_start();
   ?>
   <title><?php echo $rutasall ?></title>
 
-  <!-- google fonts -->
-  <link href="//fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+   <!-- google fonts -->
+   <link href="//fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Bootstrap CSS -->
-  <!-- Bootstrap 3.3.7 -->
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="vistas/pack/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -86,20 +85,8 @@ session_start();
   <link rel="stylesheet" href="vistas/css/sistem.css">
 
 
-  <!-- bootstrap wysihtml5 - text editor -->
-  <!-- <link rel="stylesheet" href="vistas/pack/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"> -->
 
-  <link rel="stylesheet" href="vistas/css/plantilla.css">
-  <link rel="stylesheet" href="vistas/css/form.css">
-  <link rel="stylesheet" href="vistas/css/menu.css">
-  <link rel="stylesheet" href="vistas/css/sistem.css">
-
-
-
-
-
-
-    <!-- Template JavaScript -->
+  <!-- Template JavaScript -->
   <!-- <script src="vistas/assets/js/jquery-3.3.1.min.js"></script> -->
   <!-- jQuery 3 -->
   <script src="vistas/pack/bower_components/jquery/dist/jquery.min.js"></script>
@@ -132,13 +119,11 @@ session_start();
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- CK Editor -->
   <script src="vistas/pack/bower_components/ckeditor/ckeditor.js"></script>
-  <!-- sweet alert -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
-  <script src="vistas/pack/plugins/sweetalert/sweetalert2.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap WYSIHTML5
+<script src="vistas/pack/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script> -->
+<!-- Meta Pixel Code -->
   <!-- CK Editor -->
-  <script src="vistas/pack/bower_components/ckeditor/ckeditor.js"></script>
+  <!-- <script src="vistas/pack/bower_components/ckeditor/ckeditor.js"></script> -->
   <!-- Bootstrap WYSIHTML5
 <script src="vistas/pack/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script> -->
 </head>
